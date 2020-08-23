@@ -24,6 +24,7 @@
     <title>Fylo landing page with two column layout</title>
   </head>
   <body>
+    <!-- Header -->
     <header class="header content-h content-v">
       <img class="banner" src="./images/logo.svg" alt="iconLogo" />
       <nav aria-labelledby="primary-navigation" class="nav-principal">
@@ -35,6 +36,7 @@
       </nav>
     </header>
 
+    <!-- Section 1 -->
     <section class="section1 content-h content-v">
       <img
         class="w-100"
@@ -60,6 +62,13 @@
       </div>
     </section>
 
+    <div
+      style="
+        background-image: url('./images/bg-curve-mobile.svg');
+        height: 50px;
+      "
+    ></div>
+    <!-- Section 2 -->
     <section class="section2 content-h content-v">
       <img
         class="w-100"
@@ -98,7 +107,59 @@
         </div>
       </div>
     </section>
-    <footer>
+
+    <!-- Section 3 -->
+    <section class="section3 content-h">
+      <h4>Get early access today</h4>
+      <p>
+        It only takes a minutes to sign up and our free starter tier is
+        extremely generous. If you have any questions, our support team would be
+        happy to help you.
+      </p>
+      <div class="section3-btns">
+        <input
+          class="w-100"
+          type="email"
+          name="emailFree"
+          placeholder="email@example.com"
+        />
+        <button class="w-100 btn">Get Started for free</button>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <img class="footer-banner" src="./images/logo-white.svg" alt="iconLogo" />
+      <div class="footer-content-1">
+        <div class="footer-content-contact">
+          <img src="images/icon-phone.svg" alt="icon-phone" />
+          <p>Phone: +1-543 123-4567</p>
+        </div>
+        <div class="footer-content-contact">
+          <img src="images/icon-email.svg" alt="icon-email"/>
+          <p>example@fylo.com</p>
+        </div>
+      </div>
+
+      <div class="footer-content-tag">
+        <a href="#">About us</a>
+        <a href="#">Jobs</a>
+        <a href="#">Press</a>
+        <a href="#">Blog</a>
+      </div>
+
+      <div class="footer-content-tag">
+        <a href="#">Contact Us</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+
+      <div class="footer-content-rs">
+        <img src="images/facebook.svg" alt="icon-facebook"/>
+        <img src="images/twitter.svg" alt="icon-twitter"/>
+        <img src="images/instagram.svg" alt="icon-instagram"/>
+      </div>
+
       <p class="attribution">
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
