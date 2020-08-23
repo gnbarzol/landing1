@@ -1,91 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-    <meta name="author" content="Gary Barzola" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="stylesheet" type="text/css" href="./styles.css" />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Fylo landing page with two column layout</title>
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="header content-h content-v">
-      <img class="banner" src="./images/logo.svg" alt="iconLogo" />
-      <nav aria-labelledby="primary-navigation" class="nav-principal">
-        <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+  <meta name="author" content="Gary Barzola" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <link rel="stylesheet" type="text/css" href="./media.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet" />
+  <title>Fylo landing page with two column layout</title>
+</head>
 
-    <!-- Section 1 -->
-    <section class="section1 content-h content-v">
-      <img
-        class="w-100"
-        src="./images/illustration-1.svg"
-        alt="illustration-1"
-      />
-      <div class="section1-content">
-        <h1>All your files in one secure location, accesible anywhere.</h1>
-        <p>
-          Fylo stores your most important files in one secure location. Access
-          them wherever you need, share and collaborate with friends, family and
-          co-workers.
-        </p>
-        <div class="section1-btns">
-          <input
-            class="w-100"
-            type="email"
-            name="email"
-            placeholder="Enter your email..."
-          />
-          <button class="w-100 btn">Get Started</button>
-        </div>
+<body>
+  <!-- Header -->
+  <header class="header content-h content-v">
+    <img class="banner" src="./images/logo.svg" alt="iconLogo" />
+    <nav aria-labelledby="primary-navigation" class="nav-principal">
+      <ul>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Section 1 -->
+  <section class="section1 content-h content-v">
+    <div class="section1-img">
+      <img class="w-100" src="./images/illustration-1.svg" alt="illustration-1" />
+    </div>
+    <div class="section1-content">
+      <h1>All your files in one secure location, accesible anywhere.</h1>
+      <p>
+        Fylo stores your most important files in one secure location. Access
+        them wherever you need, share and collaborate with friends, family and
+        co-workers.
+      </p>
+      <div class="section1-btns">
+        <input class="w-100" type="email" name="email" placeholder="Enter your email..." />
+        <button class="w-100 btn">Get Started</button>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <div
-      style="
-        background-image: url('./images/bg-curve-mobile.svg');
-        height: 50px;
-        background-size: cover;
-      "
-    ></div>
-    <!-- Section 2 -->
-    <section class="section2 content-h content-v">
-      <img
-        class="w-100"
-        src="./images//illustration-2.svg"
-        alt="illustration-2"
-      />
-      <h4>Stay productive, wherever you are</h4>
-      <p>
-        Never let location be an issue when accesing your files. Fylo has you
-        covered for all of your file storage needs.
-      </p>
-      <p>
-        Securely share files and folders with friends, family and colleagues for
-        live collaboration. No email attachments required!
-      </p>
+  <div class="bg-curve"></div>
 
+  <!-- Section 2 -->
+  <section class="section2 content-h content-v">
+    <div class="section2-img">
+      <img class="w-100" src="./images//illustration-2.svg" alt="illustration-2" />
+    </div>
+    <div">
+      <div class="section2-info">
+        <h4>Stay productive, wherever you are</h4>
+        <p>
+          Never let location be an issue when accesing your files. Fylo has
+          you covered for all of your file storage needs.
+        </p>
+        <p>
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required!
+        </p>
+      </div>
       <div class="section2-blog">
         <div class="section2-work">
           <a>See how Fylo works</a>
@@ -107,37 +86,36 @@
           </div>
         </div>
       </div>
-    </section>
+      </div>
+  </section>
 
-    <!-- Section 3 -->
-    <section class="section3 content-h">
+  <!-- Section 3 -->
+  <section class="section3 content-h">
+    <div class="section3-content">
       <h4>Get early access today</h4>
       <p>
         It only takes a minutes to sign up and our free starter tier is
         extremely generous. If you have any questions, our support team would be
         happy to help you.
       </p>
-      <div class="section3-btns">
-        <input
-          class="w-100"
-          type="email"
-          name="emailFree"
-          placeholder="email@example.com"
-        />
-        <button class="w-100 btn">Get Started for free</button>
-      </div>
-    </section>
+    </div>
+    <div class="section3-btns">
+      <input class="w-100" type="email" name="emailFree" placeholder="email@example.com" />
+      <button class="w-100 btn">Get Started for free</button>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-      <img class="footer-banner" src="./images/logo-white.svg" alt="iconLogo" />
+  <!-- Footer -->
+  <footer class="footer">
+    <img class="footer-banner" src="./images/logo-white.svg" alt="iconLogo" />
+    <div class="footer-content">
       <div class="footer-content-1">
         <div class="footer-content-contact">
           <img src="images/icon-phone.svg" alt="icon-phone" />
           <p>Phone: +1-543 123-4567</p>
         </div>
         <div class="footer-content-contact">
-          <img src="images/icon-email.svg" alt="icon-email"/>
+          <img src="images/icon-email.svg" alt="icon-email" />
           <p>example@fylo.com</p>
         </div>
       </div>
@@ -156,18 +134,17 @@
       </div>
 
       <div class="footer-content-rs">
-        <img src="images/facebook.svg" alt="icon-facebook"/>
-        <img src="images/twitter.svg" alt="icon-twitter"/>
-        <img src="images/instagram.svg" alt="icon-instagram"/>
+        <img src="images/facebook.svg" alt="icon-facebook" />
+        <img src="images/twitter.svg" alt="icon-twitter" />
+        <img src="images/instagram.svg" alt="icon-instagram" />
       </div>
+    </div>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+      <a href="https://github.com/gnbarzol" target="_blank">Gary Barzola</a>.
+    </p>
+  </footer>
+</body>
 
-      <p class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://github.com/gnbarzol" target="_blank">Gary Barzola</a>.
-      </p>
-    </footer>
-  </body>
 </html>

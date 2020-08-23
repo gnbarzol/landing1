@@ -1,0 +1,141 @@
+@media only screen and (min-width: 500px) {
+  .content-h {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .content-v {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .banner {
+    width: 120px;
+  }
+
+  /* Section 1 */
+  .section1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+  }
+  .section1-img {
+    flex: 1;
+    margin: 0;
+  }
+  .section1-content {
+    flex: 1;
+    text-align: start;
+    align-items: flex-start;
+    margin-right: 4rem;
+  }
+  .section1-content h1 {
+    font-size: 34px;
+    font-family: "Raleway", sans-serif;
+  }
+  .section1-content p {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 16px;
+  }
+  .section1-btns {
+    display: flex;
+  }
+  .section1-content > input {
+    margin: 0;
+  }
+  .section1-btns > button {
+    margin: 0 1rem;
+    height: fit-content;
+    width: 300px;
+  }
+
+  /* Curve */
+  .bg-curve {
+    background-image: url("./images/bg-curve-desktop.svg");
+    height: 5rem;
+  }
+
+  /* Section 2 */
+  .section2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 1rem;
+  }
+  .section2-img {
+    width: 40%;
+    margin-top: 3rem;
+  }
+  .section2-info > h4 {
+    font-size: 32px;
+    text-align: start;
+  }
+
+  .section2-info > p {
+    max-width: 450px;
+  }
+  .section2-work {
+    margin-left: 0;
+  }
+
+  .section2-card {
+    max-width: 250px;
+    margin-left: 0;
+  }
+  .section2-card > p {
+    letter-spacing: 0.4px;
+  }
+
+  /* Section 3 */
+  .section3 {
+      display: flex;
+  }
+
+  .section3-content {
+      flex: 1;
+      padding: 0;
+      text-align: start;
+      margin: auto 0;
+  }
+  .section3-content > p {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    max-width: 400px;
+
+  }
+
+  .section3-content > h4 {
+      font-size: 22px;
+  }
+
+  .section3-btns {
+      flex: 1;
+      padding: 1rem;
+      margin: auto 4rem;
+      text-align: start;
+      max-width: 500px;
+  }
+
+  .section3-btns button {
+      max-width: 175px;
+  }
+
+  /* Footer */
+  .footer-content {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 12rem;
+      font-size: 14px;
+  }
+
+  .footer-content > div {
+      margin-top: 0;
+  }
+
+  .footer-content-rs > img {
+      width: 25px;
+      margin-right: 10px;
+  }
+}
